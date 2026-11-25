@@ -1,0 +1,8 @@
+name = "provekit-spice"
+version = "0.5.0"
+defaultTargets = ["Spice"]
+moreLeanArgs = ["-DwarningAsError=true"]
+
+[[lean_lib]]
+name = "Spice"
+roots = ["LoadStore", "GetPut"]
